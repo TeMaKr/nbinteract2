@@ -10,3 +10,23 @@
 2020-07-01 19:09:29,199 [22776] DEBUG    root:197: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
 2020-07-01 19:09:29,201 [22776] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
 2020-07-01 19:09:29,201 [22776] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2020-07-01 19:36:53,207 [19900] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2020-07-01 19:36:53,207 [19900] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2020-07-01 19:36:53,207 [19900] INFO     root:247: [JupyterRequire] Initializing comms.
+2020-07-01 19:36:53,210 [19900] DEBUG    root:197: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2020-07-01 19:36:53,211 [19900] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2020-07-01 19:36:53,211 [19900] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2020-07-01 19:36:54,001 [19900] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2020-07-01 19:36:54,002 [19900] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2020-07-01 19:36:54,003 [19900] INFO     root:247: [JupyterRequire] Initializing comms.
+2020-07-01 19:36:54,011 [19900] DEBUG    root:197: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2020-07-01 19:36:54,013 [19900] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2020-07-01 19:36:54,015 [19900] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2020-07-01 19:37:14,605 [19900] INFO     numexpr.utils:129: [JupyterRequire] Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-07-01 19:37:14,605 [19900] INFO     numexpr.utils:141: [JupyterRequire] NumExpr defaulting to 8 threads.
+2020-07-01 19:37:42,068 [19900] WARNING  itables.downsample:23: [JupyterRequire] showing 1451x5 of 2903x10 as nbytes=232240>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-01 19:37:42,130 [19900] WARNING  itables.downsample:23: [JupyterRequire] showing 1616x5 of 3233x10 as nbytes=258640>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-01 19:37:42,221 [19900] WARNING  itables.downsample:23: [JupyterRequire] showing 987x5 of 3950x10 as nbytes=316000>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-01 19:37:42,292 [19900] WARNING  itables.downsample:23: [JupyterRequire] showing 1011x5 of 4045x10 as nbytes=323600>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-01 19:37:42,362 [19900] WARNING  itables.downsample:23: [JupyterRequire] showing 1048x5 of 4192x10 as nbytes=335360>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-01 19:38:18,281 [19900] WARNING  itables.downsample:23: [JupyterRequire] showing 4539x1 of 145263x21 as maxColumns=20 and nbytes=24404184>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
