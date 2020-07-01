@@ -13143,10 +13143,10 @@ div#notebook {
 
 
 
-<div id="8eecc812-3f9b-4c3a-8438-ba4640c6766f"></div>
+<div id="586c532a-9a41-4cd6-90b2-543ec06f33d3"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#8eecc812-3f9b-4c3a-8438-ba4640c6766f');
+var element = $('#586c532a-9a41-4cd6-90b2-543ec06f33d3');
 require.config({
     paths: {
         datatables: 'https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min',
@@ -13310,10 +13310,10 @@ function eval_functions(map_or_text) {
     <span class="n">min_PublishDate</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">min_PublishDate</span><span class="p">)</span>
     <span class="n">max_PublishDate</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">max_PublishDate</span><span class="p">)</span>
     <span class="c1">#return df_PIX_display.loc[(df_PIX_display[column] &gt; minimum) &amp; (df_PIX_display[column] &lt; maximum)]</span>
-    <span class="k">return</span> <span class="n">show</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span> <span class="o">&gt;=</span> <span class="n">min_PublishDate</span><span class="p">)</span> 
+    <span class="k">return</span> <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span> <span class="o">&gt;=</span> <span class="n">min_PublishDate</span><span class="p">)</span> 
                   <span class="o">&amp;</span> <span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span> <span class="o">&lt;=</span> <span class="n">max_PublishDate</span><span class="p">)</span>
                   <span class="o">&amp;</span><span class="p">((</span><span class="n">df</span><span class="p">[</span><span class="n">column</span><span class="p">])</span> <span class="o">&gt;</span> <span class="n">minimum</span><span class="p">)</span> 
-                  <span class="o">&amp;</span> <span class="p">((</span><span class="n">df</span><span class="p">[</span><span class="n">column</span><span class="p">])</span> <span class="o">&lt;</span> <span class="n">maximum</span><span class="p">)]</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">column</span><span class="p">),</span> <span class="n">maxBytes</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+                  <span class="o">&amp;</span> <span class="p">((</span><span class="n">df</span><span class="p">[</span><span class="n">column</span><span class="p">])</span> <span class="o">&lt;</span> <span class="n">maximum</span><span class="p">)]</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">column</span><span class="p">)</span>
 </pre></div>
 
     </div>

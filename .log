@@ -56,3 +56,8 @@
 2020-07-01 19:58:24,157 [8208] WARNING  itables.downsample:23: [JupyterRequire] showing 1952x2 of 7811x11 as nbytes=687368>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
 2020-07-01 19:59:08,116 [8208] WARNING  itables.downsample:23: [JupyterRequire] showing 1952x2 of 7811x10 as nbytes=624880>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
 2020-07-01 20:00:58,453 [8208] WARNING  itables.downsample:23: [JupyterRequire] showing 1952x2 of 7811x10 as nbytes=624880>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-01 20:11:46,240 [8208] WARNING  itables.downsample:23: [JupyterRequire] showing 626x10 of 1253x10 as nbytes=100240>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-01 20:11:46,410 [8208] WARNING  itables.downsample:23: [JupyterRequire] showing 834x5 of 1669x10 as nbytes=133520>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-01 20:11:47,983 [8208] WARNING  itables.downsample:23: [JupyterRequire] showing 900x5 of 1800x10 as nbytes=144000>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-01 20:11:48,064 [8208] WARNING  itables.downsample:23: [JupyterRequire] showing 1522x5 of 3044x10 as nbytes=243520>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-01 20:11:48,224 [8208] WARNING  itables.downsample:23: [JupyterRequire] showing 969x5 of 3878x10 as nbytes=310240>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
