@@ -13115,13 +13115,14 @@ div#notebook {
 
   
 
-  <div class="
+  <div class="nbinteract-hide_in
       cell border-box-sizing code_cell rendered">
     <div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># nbi:hide_in</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">import</span> <span class="nn">scipy</span>
 <span class="kn">import</span> <span class="nn">itables.interactive</span>
@@ -13129,95 +13130,6 @@ div#notebook {
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    
-
-
-
-
-<div id="5cd46fd7-6bb1-4908-a0a5-061c393dc6ee"></div>
-<div class="output_subarea output_javascript ">
-<script type="text/javascript">
-var element = $('#5cd46fd7-6bb1-4908-a0a5-061c393dc6ee');
-require.config({
-    paths: {
-        datatables: 'https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min',
-    }
-});
-
-$('head').append('<link rel="stylesheet" type="text/css" \
-                href = "https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" > ');
-
-$('head').append('<style> table td { text-overflow: ellipsis; overflow: hidden; } </style>');
-
-$('head').append(`<script>
-function eval_functions(map_or_text) {
-    if (typeof map_or_text === "string") {
-        if (map_or_text.startsWith("function")) {
-            try {
-                // Note: parenthesis are required around the whole expression for eval to return a value!
-                // See https://stackoverflow.com/a/7399078/911298.
-                //
-                // eval("local_fun = " + map_or_text) would fail because local_fun is not declared
-                // (using var, let or const would work, but it would only be declared in the local scope
-                // and therefore the value could not be retrieved).
-                const func = eval("(" + map_or_text + ")");
-                if (typeof func !== "function") {
-                    // Note: backquotes are super convenient!
-                    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
-                    console.error("Evaluated expression " + map_or_text + " is not a function (type is " + typeof func + ")");
-                    return map_or_text;
-                }
-                // Return the function
-                return func;
-            } catch (e) {
-                // Make sure to print the error with a second argument to console.error().
-                console.error("itables was not able to parse " + map_or_text, e);
-            }
-        }
-    } else if (typeof map_or_text === "object") {
-        if (map_or_text instanceof Array) {
-            // Note: "var" is now superseded by "let" and "const".
-            // https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75
-            const result = [];
-            // Note: "for of" is the best way to iterate through an iterable.
-            // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of
-            for (const item of map_or_text) {
-                result.push(eval_functions(item));
-            }
-            return result;
-
-            // Alternatively, more functional approach in one line:
-            // return map_or_text.map(eval_functions);
-        } else {
-            const result = {};
-            // Object.keys() is safer than "for in" because otherwise you might have keys
-            // that aren't defined in the object itself.
-            //
-            // See https://stackoverflow.com/a/684692/911298.
-            for (const item of Object.keys(map_or_text)) {
-                result[item] = eval_functions(map_or_text[item]);
-            }
-            return result;
-        }
-    }
-
-    return map_or_text;
-}
-</` + 'script>');
-</script>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -13244,13 +13156,14 @@ function eval_functions(map_or_text) {
 
   
 
-  <div class="
+  <div class="nbinteract-hide_in
       cell border-box-sizing code_cell rendered">
     <div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;.\data\PIX_Report.csv&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;,&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># nbi:hide_in</span>
+<span class="n">df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;.\data\PIX_Report.csv&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;,&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13261,13 +13174,14 @@ function eval_functions(map_or_text) {
 
   
 
-  <div class="
+  <div class="nbinteract-hide_in
       cell border-box-sizing code_cell rendered">
     <div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;PublishDate&#39;</span><span class="p">]</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;PublishDate&#39;</span><span class="p">])</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># nbi:hide_in</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;PublishDate&#39;</span><span class="p">]</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;PublishDate&#39;</span><span class="p">])</span>
 </pre></div>
 
     </div>
@@ -13278,13 +13192,14 @@ function eval_functions(map_or_text) {
 
   
 
-  <div class="
+  <div class="nbinteract-hide_in
       cell border-box-sizing code_cell rendered">
     <div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;PublishDate&#39;</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># nbi:hide_in</span>
+<span class="n">df</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;PublishDate&#39;</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13295,13 +13210,14 @@ function eval_functions(map_or_text) {
 
   
 
-  <div class="
+  <div class="nbinteract-hide_in
       cell border-box-sizing code_cell rendered">
     <div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">print_articles_published</span><span class="p">(</span><span class="n">min_PublishDate</span><span class="p">,</span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># nbi:hide_in</span>
+<span class="k">def</span> <span class="nf">print_articles_published</span><span class="p">(</span><span class="n">min_PublishDate</span><span class="p">,</span> 
                              <span class="n">max_PublishDate</span><span class="p">,</span>
                              <span class="n">column</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;IndexPIX&#39;</span><span class="p">,</span> <span class="s1">&#39;IndexLDPIX&#39;</span><span class="p">,</span> <span class="s1">&#39;IndexRWPIX&#39;</span><span class="p">],</span> 
                              <span class="n">minimum</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> 
@@ -13324,13 +13240,14 @@ function eval_functions(map_or_text) {
 
   
 
-  <div class="
+  <div class="nbinteract-hide_in
       cell border-box-sizing code_cell rendered">
     <div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">_</span> <span class="o">=</span> <span class="n">interact</span><span class="p">(</span><span class="n">print_articles_published</span><span class="p">,</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># nbi:hide_in</span>
+<span class="n">_</span> <span class="o">=</span> <span class="n">interact</span><span class="p">(</span><span class="n">print_articles_published</span><span class="p">,</span>
              <span class="n">min_PublishDate</span><span class="o">=</span><span class="n">widgets</span><span class="o">.</span><span class="n">DatePicker</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="s1">&#39;2020-03-11&#39;</span><span class="p">)),</span>
              <span class="n">max_PublishDate</span><span class="o">=</span><span class="n">widgets</span><span class="o">.</span><span class="n">DatePicker</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="s1">&#39;2021-01-01&#39;</span><span class="p">)))</span>
 </pre></div>
@@ -13392,7 +13309,7 @@ function eval_functions(map_or_text) {
     }
 
     var interact = new window.NbInteract({
-      spec: 'Temakr/nbinteract2/master',
+      spec: 'SamLau95/nbinteract-image/master',
       baseUrl: 'https://mybinder.org',
       provider: 'gh',
     })

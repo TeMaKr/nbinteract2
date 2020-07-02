@@ -61,3 +61,56 @@
 2020-07-01 20:11:47,983 [8208] WARNING  itables.downsample:23: [JupyterRequire] showing 900x5 of 1800x10 as nbytes=144000>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
 2020-07-01 20:11:48,064 [8208] WARNING  itables.downsample:23: [JupyterRequire] showing 1522x5 of 3044x10 as nbytes=243520>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
 2020-07-01 20:11:48,224 [8208] WARNING  itables.downsample:23: [JupyterRequire] showing 969x5 of 3878x10 as nbytes=310240>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-01 20:24:05,047 [10232] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2020-07-01 20:24:05,047 [10232] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2020-07-01 20:24:05,047 [10232] INFO     root:247: [JupyterRequire] Initializing comms.
+2020-07-01 20:24:05,050 [10232] DEBUG    root:197: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2020-07-01 20:24:05,050 [10232] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2020-07-01 20:24:05,051 [10232] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2020-07-01 20:24:05,837 [10232] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2020-07-01 20:24:05,838 [10232] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2020-07-01 20:24:05,839 [10232] INFO     root:247: [JupyterRequire] Initializing comms.
+2020-07-01 20:24:05,845 [10232] DEBUG    root:197: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2020-07-01 20:24:05,847 [10232] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2020-07-01 20:24:05,850 [10232] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2020-07-02 12:25:14,278 [16460] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2020-07-02 12:25:14,279 [16460] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2020-07-02 12:25:14,279 [16460] INFO     root:247: [JupyterRequire] Initializing comms.
+2020-07-02 12:25:14,289 [16460] DEBUG    root:197: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2020-07-02 12:25:14,292 [16460] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2020-07-02 12:25:14,294 [16460] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2020-07-02 12:25:30,906 [13948] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2020-07-02 12:25:30,907 [13948] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2020-07-02 12:25:30,907 [13948] INFO     root:247: [JupyterRequire] Initializing comms.
+2020-07-02 12:25:30,909 [13948] DEBUG    root:197: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2020-07-02 12:25:30,910 [13948] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2020-07-02 12:25:30,910 [13948] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2020-07-02 12:25:31,204 [12380] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2020-07-02 12:25:31,204 [12380] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2020-07-02 12:25:31,205 [12380] INFO     root:247: [JupyterRequire] Initializing comms.
+2020-07-02 12:25:31,207 [12380] DEBUG    root:197: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2020-07-02 12:25:31,208 [12380] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2020-07-02 12:25:31,208 [12380] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2020-07-02 12:25:31,432 [13948] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2020-07-02 12:25:31,432 [13948] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2020-07-02 12:25:31,433 [13948] INFO     root:247: [JupyterRequire] Initializing comms.
+2020-07-02 12:25:31,438 [13948] DEBUG    root:197: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2020-07-02 12:25:31,439 [13948] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2020-07-02 12:25:31,439 [13948] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2020-07-02 12:26:28,300 [12380] WARNING  itables.downsample:23: [JupyterRequire] showing 504x10 of 1009x10 as nbytes=80720>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-02 12:26:28,392 [12380] WARNING  itables.downsample:23: [JupyterRequire] showing 1574x5 of 3149x10 as nbytes=251920>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-02 12:26:28,513 [12380] WARNING  itables.downsample:23: [JupyterRequire] showing 1060x5 of 4243x10 as nbytes=339440>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-02 12:26:29,890 [12380] WARNING  itables.downsample:23: [JupyterRequire] showing 1174x5 of 4699x10 as nbytes=375920>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-02 12:26:29,963 [12380] WARNING  itables.downsample:23: [JupyterRequire] showing 1574x5 of 6296x10 as nbytes=503680>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-02 12:26:30,228 [12380] WARNING  itables.downsample:23: [JupyterRequire] showing 1952x2 of 7809x10 as nbytes=624720>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-02 12:26:36,339 [12380] WARNING  itables.downsample:23: [JupyterRequire] showing 1943x2 of 7774x10 as nbytes=621920>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-02 12:26:36,413 [12380] WARNING  itables.downsample:23: [JupyterRequire] showing 1939x2 of 7758x10 as nbytes=620640>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-02 12:26:36,469 [12380] WARNING  itables.downsample:23: [JupyterRequire] showing 1924x2 of 7698x10 as nbytes=615840>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-02 12:26:36,520 [12380] WARNING  itables.downsample:23: [JupyterRequire] showing 1902x2 of 7611x10 as nbytes=608880>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-02 12:26:36,594 [12380] WARNING  itables.downsample:23: [JupyterRequire] showing 1879x2 of 7516x10 as nbytes=601280>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-02 12:26:36,668 [12380] WARNING  itables.downsample:23: [JupyterRequire] showing 1865x2 of 7462x10 as nbytes=596960>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-02 12:26:36,724 [12380] WARNING  itables.downsample:23: [JupyterRequire] showing 1823x2 of 7295x10 as nbytes=583600>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-02 12:26:36,785 [12380] WARNING  itables.downsample:23: [JupyterRequire] showing 1570x5 of 6282x10 as nbytes=502560>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-02 12:26:38,180 [12380] WARNING  itables.downsample:23: [JupyterRequire] showing 1563x5 of 6255x10 as nbytes=500400>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-02 12:26:38,276 [12380] WARNING  itables.downsample:23: [JupyterRequire] showing 1540x5 of 6160x10 as nbytes=492800>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
+2020-07-02 12:26:38,471 [12380] WARNING  itables.downsample:23: [JupyterRequire] showing 1460x5 of 5840x10 as nbytes=467200>65536=maxBytes. See https://mwouts.github.io/itables/#downsampling
